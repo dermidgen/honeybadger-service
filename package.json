@@ -25,6 +25,7 @@
   "dependencies": {
     "debug": "^2.2.0",
     "honeybadger-etl": "git://github.com/dermidgen/honeybadger-etl.git",
+    "nano": "^6.1.2",
     "node-schedule": "^0.2.6",
     "q": "^1.4.0"
   },
