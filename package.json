@@ -22,7 +22,6 @@
     "node": ">=0.12"
   },
   "dependencies": {
-    "rets.js": "git://github.com/dermidgen/rets.js.git",
     "honeybadger-etl": "git://github.com/dermidgen/honeybadger-etl.git"
   }
 }
