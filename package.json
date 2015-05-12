@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "debug": "^2.2.0",
-    "grave": "0.0.1",
+    "grave": "git://github.com/substack/node-grave.git",
     "honeybadger-etl": "git://github.com/dermidgen/honeybadger-etl.git",
     "nano": "^6.1.2",
     "node-schedule": "^0.2.6",
