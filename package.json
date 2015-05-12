@@ -1,0 +1,28 @@
+{
+  "name": "honeybadger-service",
+  "version": "0.2.0",
+  "description": "Honey Badger services, workers and ETL workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dermidgen/honeybadger-service.git"
+  },
+  "keywords": [
+    "etl"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dermidgen/honeybadger-service/issues"
+  },
+  "homepage": "https://github.com/dermidgen/honeybadger-service",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "dependencies": {
+    "rets.js": "git://github.com/dermidgen/rets.js.git",
+    "honeybadger-etl": "git://github.com/dermidgen/honeybadger-etl.git"
+  }
+}
