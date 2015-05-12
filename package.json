@@ -5,7 +5,7 @@
   "main": "service.js",
   "scripts": {
     "test": "mocha test/index",
-    "dev": "DEBUG=* nodemon -q service"
+    "dev": "DEBUG=HoneyBadger* nodemon -q service"
   },
   "repository": {
     "type": "git",
