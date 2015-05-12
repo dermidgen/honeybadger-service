@@ -29,7 +29,7 @@ function design() {
 	var tasks = db.design('tasks', '0.2.0');
 
 	var source = function(doc) {
-		if (doc.type == 'source') emit(doc.name, doc);
+		if (doc.type == 'dsn') emit(doc.name, doc);
 	};
 
 	var extractor = function(doc) {
