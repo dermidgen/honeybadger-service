@@ -4,11 +4,19 @@ Services, Workers and Orchestration for Node based ETL Streams
 ## Usage
 The components of this package can be used directly as libraries in your own project or run as a service.
 
+### Run Service
 When running as a service, configurations for sources, extractors, transformers, loaders and tasks are stored and managed via CouchDB. Package installation verifies that CouchDB is installed locally and that the required database and views are setup.
+
+```
+npm install
+npm install pm2 -g
+pm2 start service.js --name "honeybadger-service" --watch
+```
+
+### Data Manager
 
 The Data Manager can be used directly as a library to handle interactions with CouchDB for fetching and saving configurations.
 
-### Data Manager
 ```
 var DataManager = require('honeybadger-service/lib/data-manager');
 
