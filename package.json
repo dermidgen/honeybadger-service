@@ -4,7 +4,6 @@
   "description": "Honey Badger services, workers and ETL workflow",
   "main": "service.js",
   "scripts": {
-    "postinstall": "node bin/couch-init.js",
     "test": "mocha test/index",
     "dev": "DEBUG=HoneyBadger* nodemon -q service"
   },

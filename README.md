@@ -10,6 +10,7 @@ When running as a service, configurations for sources, extractors, transformers,
 ```
 npm install
 npm install pm2 -g
+./bin/couch-init.js
 pm2 start service.js --name "honeybadger-service" --watch
 ```
 
